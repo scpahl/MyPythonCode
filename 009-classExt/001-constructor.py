@@ -9,7 +9,7 @@ print(p1.name);
 
 class Student(Person):
     def __init__(self):
-        Person.__init__(self,"hl",12);
+        super(Student,self).__init__("hl",21);
         self.No="0701405";
 
 st = Student();

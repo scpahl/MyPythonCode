@@ -3,6 +3,6 @@ class MyException(Exception):
 
 try:
     raise MyException;
-except:
+except (MyException) as e:
     print("ss");
 
